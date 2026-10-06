@@ -315,6 +315,9 @@ endif
 all: check_arch build_dir lua highlight highlight-wrapper
 install: check_arch build_dir lua highlight highlight-wrapper
 
+# Alias for Xcode legacy targets, which invoke `make $(ACTION)` (i.e. `make build`).
+build: all
+
 clean_intermediate: clean_lua clean_highlight clean_highlight-wrapper
 
 clean: clean_intermediate

@@ -157,3 +157,6 @@ endif
 	
 all: check_arch source-libjpcre2 libpcre2 libjpcre2
 install: check_arch source-libjpcre2 libpcre2 libjpcre2
+
+# Alias for Xcode legacy targets, which invoke `make $(ACTION)` (i.e. `make build`).
+build: all

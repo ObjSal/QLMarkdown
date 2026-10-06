@@ -400,7 +400,8 @@ class Settings: Codable {
     }
     
     /// Show the informative message on the footer.
-    var about: Bool = true
+    /// Fork default: off, so previews render without attribution/donation footer.
+    var about: Bool = false
     
     lazy fileprivate(set) var resourceBundle: Bundle = {
         return Self.getResourceBundle()

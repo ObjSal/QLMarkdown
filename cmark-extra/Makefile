@@ -132,6 +132,9 @@ endif
 
 all: check_arch build_dir cmark
 
+# Alias for Xcode legacy targets, which invoke `make $(ACTION)` (i.e. `make build`).
+build: all
+
 install:
 	@echo "installed"
 

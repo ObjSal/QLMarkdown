@@ -21,7 +21,7 @@
 		830B5B40272D68FB00378FFE /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 830B5B3F272D68FB00378FFE /* SwiftSoup */; };
 		831834E6277E10150044ECDA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 831834E5277E10150044ECDA /* Sparkle */; };
 		831A8C41258ABADA00E36182 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831A8C40258ABADA00E36182 /* Quartz.framework */; };
-		831A8C44258ABADA00E36182 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A8C43258ABADA00E36182 /* PreviewProvider.swift */; };
+		831A8C44258ABADA00E36182 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A8C43258ABADA00E36182 /* PreviewViewController.swift */; };
 		831A8C4D258ABADA00E36182 /* Markdown QL Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 831A8C3F258ABADA00E36182 /* Markdown QL Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		831A8C6B258ABD8900E36182 /* syntaxhighlight.c in Sources */ = {isa = PBXBuildFile; fileRef = 83598EF525818BCB004664D3 /* syntaxhighlight.c */; };
 		831A8C6E258ABD8D00E36182 /* emoji.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EF95222585476800B56FA3 /* emoji.c */; };
@@ -528,7 +528,7 @@
 		376A8FF7F19F47B3AD9B463D /* alert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alert.c; sourceTree = "<group>"; };
 		831A8C3F258ABADA00E36182 /* Markdown QL Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Markdown QL Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831A8C40258ABADA00E36182 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
-		831A8C43258ABADA00E36182 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		831A8C43258ABADA00E36182 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		831A8C48258ABADA00E36182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831A8C49258ABADA00E36182 /* QLExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QLExtension.entitlements; sourceTree = "<group>"; };
 		8320D58A2D1C25B1005868BD /* QLMarkdown Shortcut Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = "QLMarkdown Shortcut Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -795,7 +795,7 @@
 			isa = PBXGroup;
 			children = (
 				831A8C48258ABADA00E36182 /* Info.plist */,
-				831A8C43258ABADA00E36182 /* PreviewProvider.swift */,
+				831A8C43258ABADA00E36182 /* PreviewViewController.swift */,
 				831A8C49258ABADA00E36182 /* QLExtension.entitlements */,
 				833A5B733052DC8400850312 /* Localizable.xcstrings */,
 			);
@@ -1500,7 +1500,7 @@
 				834CAB9D2593650900673002 /* emoji_utils.cpp in Sources */,
 				834A4F1C29E8AD8D00692964 /* cmark_ctype.c in Sources */,
 				834A4F1F29E8AD8D00692964 /* inlines.c in Sources */,
-				831A8C44258ABADA00E36182 /* PreviewProvider.swift in Sources */,
+				831A8C44258ABADA00E36182 /* PreviewViewController.swift in Sources */,
 				8376EADE27E8BD3D00AB44B8 /* Log.swift in Sources */,
 				834A4F3629E8AD8D00692964 /* plaintext.c in Sources */,
 				83327D332594087100E76CF6 /* MIMEtype.c in Sources */,
